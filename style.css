@@ -3,11 +3,15 @@
     padding: 0;
     margin: 0;
 }
-
+/* Body Color Main*/
 body {
     background-color: #d9dcd6;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
+/* Upper Button Tab */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,14 @@ body {
     color: #ffffff;
 }
 
+/* Horiseon Name */
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    color: #ffffff;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
+/* Quick Tab Section Container */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,75 +35,71 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
+/* Button Container */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Text Color Top */
 a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 20px;
 }
 
+/* Paragraph Font */
 p {
     font-size: 16px;
+    color: white;
+    max-width: 100%;
 }
 
+/* Background Image */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Right Hand Column */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Right Hand Column Layout */
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 1100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
 }
 
+/* Spacing Lead Generation to Brand Awareness */
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
+/* Spacing Brand Awareness to Cost Management */
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
+/* Spacing Cost Managemnet to End of Block */
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
+/* Lead Generation Header Text */
 .benefit-lead h5 {
     margin-bottom: 32px;
     text-align: center;
@@ -108,36 +107,44 @@ p {
     color: #ffffff
 }
 
-.benefit-brand h6 {
-    margin-bottom: 32px;
-    text-align: center;
-    font-size: 25px;
-}
-
-.benefit-cost h6 {
-    margin-bottom: 32px;
-    text-align: center;
-    font-size: 25px;
-}
-
+/* Lead Generation Image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Brand Awareness Header Text */
+.benefit-brand h6 {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/* Brand Awareness Image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Cost Management Header Text */
+.benefit-cost h6 {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/* Cost Management Image */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Search Engine Optimization Container */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 75px;
@@ -147,6 +154,20 @@ p {
     color: #ffffff;
 }
 
+/* Search Engine Optimization Image */
+.search-engine-optimization img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* Search Engine Optimization Header Text */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Online Reputation Management Container */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 75px;
@@ -156,6 +177,20 @@ p {
     color: #ffffff;
 }
 
+/* Online Reputation Management Image */
+.online-reputation-management img {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+/* Online Reputation Management Header Text */
+.online-reputation-management h3 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Social Media Marketing Container */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 75px;
@@ -165,37 +200,28 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/* Social Media Marketing Image */
 .social-media-marketing img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h3 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Social Media Marketing Header Text*/
 .social-media-marketing h4 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer Container */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+.p2 {
+    font-size: 16px;
 }
 
