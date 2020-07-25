@@ -1,6 +1,6 @@
 # code-refractor ![html lang="en-us"]
 <!-- Description of Work -->
-For this project, I had to clean up the existing code while using a reset.css to make everything default. Also deleting unecessary code and grouping the stylesheets to make it easier to read. Added psuedo code so anyone can follow along and know what they are making a change to.
+For this project, I had to clean up the existing code while using a reset.css to make everything default. Fixed buttons that were not working, colors that were not up to standards, as well as adding a even text throughout the code. Also deleting unecessary code and grouping the stylesheets to make it easier to read. Added psuedo code so anyone can follow along and know what they are making a change to.
 <!-- Landing Page Screenshot -->
 ![ Code Refractor landing page] <image src="./assets/images/screenshot.png" alt="Screenshot">
 <!-- URL link -->
